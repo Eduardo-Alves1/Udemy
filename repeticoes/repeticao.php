@@ -19,7 +19,7 @@ for($i=date("Y");$i >=date("Y")-100; $i--){
 echo"</select>" */
 
 
-    $meses = array(
+   /* $meses = array(
         "Janeiro","Fevereiro","Março",
         "Abril","Maio","Junho","Julho",
         "Agosto","Setembro","Outubro",
@@ -29,7 +29,37 @@ echo"</select>" */
     foreach ($meses as $index => $mes){
         echo "indice: ".$index."<br>";
         echo "O mês é: ".$mes."<br>";
-    }
+    }*/
+
+/*
+        $codicao = true;
+
+        while($codicao){
+
+            $numero = rand(1,10);
+
+            if($numero=== 3){
+
+                echo "tres";
+                $condicao = false;
+            }
+
+            echo $numero . " ";
+            
+        } */
+
+
+        $total = 150;
+        $desconto = 0.9;
+
+        do{
+            $total *= $desconto;
+
+        }while($total > 100);
+
+        echo $total;
+
+        
 
 
 ?>
