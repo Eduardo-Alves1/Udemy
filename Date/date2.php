@@ -4,6 +4,6 @@
 
     echo ucwords(strftime("%A %B"));
 
-
+    //teste
 
 ?>
